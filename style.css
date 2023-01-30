@@ -76,3 +76,33 @@ nav > ul > li:hover {
 
 
 /* HOME */
+
+
+/* ROSTER */
+.rosterOuter {
+    display: flex;
+    flex-direction: column;
+}
+
+.rosterBanner {
+    background: blue;
+}
+
+.rosterPlayerCard {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 15px;
+}
+
+.rosterPlayerCard div {
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    background: lightcoral;
+}
+
+.rosterPlayerCard div img {
+    margin-top: 10px;
+    width: 250px;
+}
