@@ -1,18 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
 </head>
-<body>
-    <form action="/action_page.php">
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname"><br><br>
-        <input type="submit" value="Submit">
-      </form>
+
+<body class="homeBody">
+    <header>
+        <a id="accessibilityA" href="main">Skip to main content.</a>
+        <nav>
+            <ul>
+                <li><a class="navItem" href="Home.html">Home</a></li>
+                <li><a class="navItem" href="Roster.html">Roster</a></li>
+                <li><a class="navItem" href="History.html">History</a></li>
+                <li><a class="navItem" href="tickets.html">Tickets</a></li>
+            </ul>
+    </header>
+
+    <main class="ticketMain">
+        <div class="ticketTitle">
+            <p>Tickets</p>
+        </div>
+        <div class="ticketContent">
+
+            <div class="ticketPurchase">
+                <div class="ticket1">
+                    <label for="ticketGames">Games</label>
+                    <select name="Games" id="ticketGames">
+                        <option value="Safeco Field">Safeco Field</option>
+                        <option value="Chase Field">Chase Field</option>
+                        <option value="Pfizer Field">Pfizer Field</option>
+                    </select>
+                </div>
+                <div class="ticket2">
+                    <label for="ticketNumber"># of Tickets</label>
+                    <select name="# of Tickets" id="ticketNumber">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4+">4+</option>
+                    </select>
+                </div>
+                <button>Purchase</button>
+            </div>
+        </div>
+    </main>
 </body>
+
 </html>
