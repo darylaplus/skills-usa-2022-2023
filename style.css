@@ -82,27 +82,90 @@ nav > ul > li:hover {
 .rosterOuter {
     display: flex;
     flex-direction: column;
+    gap: 15px;
 }
 
+
 .rosterBanner {
-    background: blue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 100px;
+    background-color: wheat;
+    justify-content: center;
+    /* background-image: url("Screen Shot 2023-01-29 at 5.48.47 PM.png"); */
 }
+
 
 .rosterPlayerCard {
     flex-wrap: wrap;
     display: flex;
     gap: 15px;
+    /* align-items: center; */
+    /* justify-content: center; */
 }
 
 .rosterPlayerCard div {
     width: 300px;
     height: 300px;
-    align-items: center;
+    /* align-items: center; */
     text-align: center;
     background: lightcoral;
+    border-radius: 15px;
 }
 
 .rosterPlayerCard div img {
     margin-top: 10px;
     width: 250px;
+    border-radius: 5px;
+}
+
+/* HISTORY */
+
+.historyOuter {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.historyBanner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 100px;
+    background-color: lightcoral;
+    justify-content: center;
+    gap: 20px;
+}
+
+.historyArchive {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.historyArchive div {
+    /* display: flex;
+    flex-direction: column; */
+    background-color: whitesmoke;
+    height: 300px;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.historyHeading {
+    font-size: 50px;
+    text-align: center;
+}
+
+.history p:last-child {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.historySchedule {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
 }
